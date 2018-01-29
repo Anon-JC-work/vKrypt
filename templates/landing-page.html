@@ -1,0 +1,27 @@
+{% extends "template.html" %}
+{% block body %}
+        <!-- Hello there! -->
+        <div class="col-md-8 content-center">
+            <div class="card card-login card-plain">
+                <form class="form" method="" action="">
+                    <div class="header header-primary text-center">
+                        <div class="logo-container">
+                            <img src="{{ url_for('static',filename='img/logo.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Welcome to Vodafone! We hope you'll enjoy you're time here.
+                        </p>
+                        <p>This is a challenge with five stages, each stage may or may not be a precursor to the next stage.
+                            You may use any tool at your disposal and you will need to think creatively about how you could solve these challenges.
+                            The topics covered range from History, Cryptography, Poetry and also geography(well kinda).
+                            Good luck!
+                        </p>
+                     </div>
+                    <div class="pull-right">
+                    </div>
+                </form>
+            </div>
+        </div>
+{% endblock %}
